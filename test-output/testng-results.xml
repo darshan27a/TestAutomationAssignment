@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="32156" started-at="2021-03-19T13:39:22Z" finished-at="2021-03-19T13:39:54Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="32156" started-at="2021-03-19T13:39:22Z" finished-at="2021-03-19T13:39:54Z">
+      <class name="Test.FindBestPrice">
+        <test-method status="PASS" signature="initialyze()[pri:0, instance:Test.FindBestPrice@548a9f61]" name="initialyze" is-config="true" duration-ms="2084" started-at="2021-03-19T19:09:22Z" finished-at="2021-03-19T19:09:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialyze -->
+        <test-method status="PASS" signature="amazonprice()[pri:1, instance:Test.FindBestPrice@548a9f61]" name="amazonprice" duration-ms="20921" started-at="2021-03-19T19:09:24Z" finished-at="2021-03-19T19:09:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- amazonprice -->
+        <test-method status="PASS" signature="flipkartprice()[pri:2, instance:Test.FindBestPrice@548a9f61]" name="flipkartprice" duration-ms="8279" started-at="2021-03-19T19:09:45Z" finished-at="2021-03-19T19:09:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flipkartprice -->
+        <test-method status="PASS" signature="compareprice()[pri:3, instance:Test.FindBestPrice@548a9f61]" name="compareprice" duration-ms="1" started-at="2021-03-19T19:09:53Z" finished-at="2021-03-19T19:09:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- compareprice -->
+        <test-method status="PASS" signature="quitBrowser()[pri:0, instance:Test.FindBestPrice@548a9f61]" name="quitBrowser" is-config="true" duration-ms="843" started-at="2021-03-19T19:09:53Z" finished-at="2021-03-19T19:09:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+      </class> <!-- Test.FindBestPrice -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
